@@ -48,10 +48,12 @@ h2.section-title em{font-style:italic;color:var(--chestnut);}
 .btn-secondary{color:var(--olive);padding:13px 30px;text-decoration:none;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;border:1px solid var(--olive);border-radius:2px;transition:all 0.25s;display:inline-block;}
 .btn-secondary:hover{background:var(--olive);color:white;}
 .hero-photo-wrap{position:relative;display:flex;justify-content:center;align-items:flex-end;height:100%;}
-.hero-photo-frame{position:relative;width:100%;max-width:440px;margin:auto;}
-.hero-photo-frame::before{content:'';position:absolute;top:24px;right:-20px;width:100%;height:100%;border:1.5px solid var(--chestnut-light);border-radius:4px;z-index:0;}
 
-  .hero-photo-frame img{width:100%;height:580px;object-fit:cover;object-position:center 20% center;transform:scale(1.20);border-radius:4px;display:block;position:relative;z-index:1;}
+  .hero-photo-frame{position:relative;width:100%;max-width:440px;margin:auto;}
+
+  .hero-photo-frame::before{content:'';position:absolute;top:24px;right:-20px;width:100%;height:100%;border:1.5px solid var(--chestnut-light);border-radius:4px;z-index:0;}
+
+  .hero-photo-frame img{width:100%;height:580px;object-fit:cover;object-position:top center;transform:scale(1.20);border-radius:4px;display:block;position:relative;z-index:1;}
 
   .hero-badge{position:absolute;bottom:30px;left:-30px;background:white;padding:16px 20px;border-radius:4px;box-shadow:0 8px 32px rgba(74,92,58,0.14);z-index:2;min-width:170px;}
 .hero-badge-title{font-size:11px;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-muted);margin-bottom:4px;}
