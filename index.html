@@ -80,10 +80,24 @@ h2.section-title em{font-style:italic;color:var(--chestnut);}
 
 
   
-  .hero-badge{position:absolute;bottom:30px;left:-30px;background:white;padding:16px 20px;border-radius:4px;box-shadow:0 8px 32px rgba(74,92,58,0.14);z-index:2;min-width:170px;}
-.hero-badge-title{font-size:11px;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-muted);margin-bottom:4px;}
+ .hero-badge{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    background:white;
+    padding:16px 20px;
+    border-radius:4px;
+    box-shadow:0 8px 32px rgba(74,92,58,0.14);
+    z-index:999;
+    min-width:170px;
+}
+  
+  .hero-badge-title{font-size:11px;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-muted);margin-bottom:4px;}
 .hero-badge-val{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:var(--olive);}
-#about{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
+
+  
+  
+  #about{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
 .about-img-wrap{position:relative;}
 .about-img-wrap img{width:100%;max-width:440px;height:560px;object-fit:cover;object-position:top;border-radius:4px;}
 .about-img-accent{position:absolute;bottom:-20px;right:-20px;width:200px;height:200px;background:var(--cream-mid);border-radius:4px;z-index:-1;}
